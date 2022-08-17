@@ -77,6 +77,12 @@
       "email": "olfgfdfggeg@demo.ru",
       "password": "demo",
       "id": "g2pcab2kl6jl1s5z"
+    },
+    {
+      "name": "Данил",
+      "email": "danil@demo.ru",
+      "password": "1234",
+      "id": "g2pca5a0l6xtnmvi"
     }
   ],
   "accounts": [
@@ -94,6 +100,41 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "l;'",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "id": "g2pca6q0l6xv0h4p"
+    },
+    {
+      "name": ";';';'",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "id": "g2pca2f0l6xv3k41"
+    },
+    {
+      "name": "asdasd",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "id": "g2pcab2sl6xv5hk7"
+    },
+    {
+      "name": "234",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "id": "g2pcabm0l6xw9ruh"
+    },
+    {
+      "name": "qwe",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "id": "g2pca2ekl6xwg3lf"
+    },
+    {
+      "name": "asd",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "id": "g2pca3zol6xwgrsw"
+    },
+    {
+      "name": "sdf",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "id": "g2pcaamwl6xwk3k9"
     }
   ],
   "transactions": [

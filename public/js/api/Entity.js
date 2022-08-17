@@ -17,9 +17,8 @@ class Entity {
       data,
       callback: (response) => {
         if (response && response.success) {
-          console.log(response);
+          callback(response.data);
         }
-        callback(response);
       }
     })
   }
@@ -37,9 +36,8 @@ class Entity {
       data,
       callback: (response) => {
         if (response && response.success) {
-          console.log(response);
+          callback();
         }
-        callback(response);
       }
     })
   }

@@ -10,7 +10,7 @@ class User {
    * локальном хранилище.
    * */
   static setCurrent(user) {
-    localStorage.setItem('user', user)
+    localStorage.setItem('user', JSON.stringify(user))
   }
 
   /**
@@ -26,7 +26,7 @@ class User {
    * из локального хранилища
    * */
   static current() {
-    return localStorage.getItem('user') || undefined
+    return JSON.parse(localStorage.getItem('user')) || undefined
   }
 
   /**
