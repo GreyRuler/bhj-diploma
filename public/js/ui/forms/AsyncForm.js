@@ -38,10 +38,15 @@ class AsyncForm {
    * */
   getData() {
     const allInput = this.element.querySelectorAll('input');
-    return [...allInput].reduce((value, input) => {
+    const allSelect = this.element.querySelectorAll('select')
+    const answerInput = [...allInput].reduce((value, input) => {
       value[input.name] = input.value
       return value
     }, {})
+    return [...allSelect].reduce((value, input) => {
+      value[input.name] = input.value
+      return value
+    }, answerInput)
   }
 
   onSubmit(options){

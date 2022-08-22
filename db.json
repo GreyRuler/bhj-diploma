@@ -102,39 +102,9 @@
       "id": "3"
     },
     {
-      "name": "l;'",
+      "name": "sdfsdfsd",
       "user_id": "g2pca5a0l6xtnmvi",
-      "id": "g2pca6q0l6xv0h4p"
-    },
-    {
-      "name": ";';';'",
-      "user_id": "g2pca5a0l6xtnmvi",
-      "id": "g2pca2f0l6xv3k41"
-    },
-    {
-      "name": "asdasd",
-      "user_id": "g2pca5a0l6xtnmvi",
-      "id": "g2pcab2sl6xv5hk7"
-    },
-    {
-      "name": "234",
-      "user_id": "g2pca5a0l6xtnmvi",
-      "id": "g2pcabm0l6xw9ruh"
-    },
-    {
-      "name": "qwe",
-      "user_id": "g2pca5a0l6xtnmvi",
-      "id": "g2pca2ekl6xwg3lf"
-    },
-    {
-      "name": "asd",
-      "user_id": "g2pca5a0l6xtnmvi",
-      "id": "g2pca3zol6xwgrsw"
-    },
-    {
-      "name": "sdf",
-      "user_id": "g2pca5a0l6xtnmvi",
-      "id": "g2pcaamwl6xwk3k9"
+      "id": "g2pca86ol74zvudj"
     }
   ],
   "transactions": [
@@ -272,6 +242,80 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "g2pca4egl74fddiw",
+      "type": "income",
+      "name": "123123",
+      "sum": 123123,
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T07:16:45.367Z"
+    },
+    {
+      "id": "g2pca4t4l74fiid3",
+      "type": "income",
+      "name": "3432",
+      "sum": 324234,
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T07:20:44.918Z"
+    },
+    {
+      "id": "g2pcavwl74fki61",
+      "type": "income",
+      "name": "32423",
+      "sum": 234234,
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T07:22:17.976Z"
+    },
+    {
+      "id": "g2pca974l74fq9ob",
+      "type": "income",
+      "name": "23423",
+      "sum": 234234234,
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T07:26:46.906Z"
+    },
+    {
+      "id": "g2pcaaz0l74fr1q8",
+      "type": "income",
+      "name": "dfsfsdf",
+      "sum": 324324,
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T07:27:23.263Z"
+    },
+    {
+      "id": "g2pca9usl74ftkrp",
+      "type": "income",
+      "name": "sdf",
+      "sum": 324,
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T07:29:21.252Z"
+    },
+    {
+      "id": "g2pca93gl74fvkiw",
+      "type": "income",
+      "name": "213",
+      "sum": 123,
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T07:30:54.248Z"
+    },
+    {
+      "id": "g2pca3icl74zytdj",
+      "type": "income",
+      "name": "234234234234324324234",
+      "sum": 234234234234,
+      "account_id": "g2pca86ol74zvudj",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T16:53:18.006Z"
+    },
+    {
+      "id": "g2pcaa2gl74zzl2j",
+      "type": "expense",
+      "name": "3435353535",
+      "sum": 335353535,
+      "account_id": "g2pca86ol74zvudj",
+      "user_id": "g2pca5a0l6xtnmvi",
+      "created_at": "2022-08-22T16:53:53.898Z"
     }
   ]
 }

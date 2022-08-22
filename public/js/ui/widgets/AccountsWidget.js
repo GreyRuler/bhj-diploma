@@ -28,11 +28,10 @@ class AccountsWidget {
    * */
   registerEvents() {
     const modalCreateAccount = App.getModal('createAccount')
-    const buttonCreateAccount = document.querySelector('.create-account')
+    const buttonCreateAccount = this.element.querySelector('.create-account')
     buttonCreateAccount.addEventListener('click', () => {
       modalCreateAccount.open()
     })
-
   }
 
   /**
