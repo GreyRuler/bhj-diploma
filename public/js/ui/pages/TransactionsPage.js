@@ -13,7 +13,6 @@ class TransactionsPage {
   constructor(element) {
     if (element === undefined) throw "Передан пустой элемент в конструктор"
     this.element = element
-    this.lastOptions
     this.registerEvents()
   }
 
@@ -82,7 +81,8 @@ class TransactionsPage {
       Account.get(options.account_id, (data) => {
         this.renderTitle(data.name)
       })
-      Transaction.list(Object.assign(User.current(), {"account_id": options.account_id}), (data) => {
+      Transaction.list(options, (data) => {
+        console.log(data)
         this.renderTransactions(data)
       })
     }
@@ -154,7 +154,7 @@ class TransactionsPage {
     // console.log(data);
     if (data.length) {
       const content = this.element.querySelector('.content')
-      data.forEach(element, () => {
+      data.forEach(element => {
         // console.log(element);
         content.innerHTML += this.getTransactionHTML(element)
         // const removeTransactionButton = content.querySelector('.transaction__remove')
