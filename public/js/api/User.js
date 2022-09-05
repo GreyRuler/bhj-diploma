@@ -40,6 +40,10 @@ class User {
       responseType: 'json',
       data: this.current(),
       callback: (response) => {
+        if (response.error) {
+          console.log(response.error)
+          return
+        }
         if (response && response.success) {
           this.setCurrent(response.user);
           callback(response);
@@ -63,6 +67,10 @@ class User {
       responseType: 'json',
       data,
       callback: (response) => {
+        if (response.error) {
+          console.log(response.error)
+          return
+        }
         if (response && response.user) {
           this.setCurrent(response.user);        
           callback(response);
@@ -84,6 +92,10 @@ class User {
       responseType: 'json',
       data,
       callback: (response) => {
+        if (response.error) {
+          console.log(response.error)
+          return
+        }
         if (response && response.user) {
           this.setCurrent(response.user);
           callback(response);
@@ -103,6 +115,10 @@ class User {
       responseType: 'json',
       data: this.current(),
       callback: (response) => {
+        if (response.error) {
+          console.log(response.error)
+          return
+        }
         if (response && response.success) {
           this.unsetCurrent()
           callback(response);

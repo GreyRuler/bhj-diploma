@@ -3,7 +3,6 @@
  * на сервер.
  * */
 const createRequest = (options = {}) => {
-    console.log(options)
     const xhr = new XMLHttpRequest()
     xhr.responseType = options.responseType;
     xhr.addEventListener('readystatechange', () => {
@@ -12,7 +11,13 @@ const createRequest = (options = {}) => {
         }
     })
     if (options.method === 'GET') {
-        xhr.open(options.method, `${options.url}?mail=${options.data?.email}&password=${options.data?.password}`)
+        let url = options.url + '?'
+        if (options.data) {
+            for (const [key, value] of Object.entries(options.data)) {
+                url += `${key}=${value}&`
+            }
+        }
+        xhr.open(options.method, url.slice(0, -1))
         xhr.send()
     } else {
         const formData = new FormData()

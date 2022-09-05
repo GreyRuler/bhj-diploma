@@ -89,6 +89,12 @@
       "email": "qwe@demo",
       "password": "demo",
       "id": "g2pca4pol7bua0ye"
+    },
+    {
+      "name": "sdfgsdfg",
+      "email": "danilsdaf@demo.ru",
+      "password": "dfgnfdghgfds  =-=-=-=p[]'",
+      "id": "g2pcaacsl7p2l1uv"
     }
   ],
   "accounts": [
@@ -98,9 +104,9 @@
       "id": "2"
     },
     {
-      "name": "l;kjkhb",
+      "name": "sdfg",
       "user_id": "g2pca5a0l6xtnmvi",
-      "id": "g2pca8c8l7bugftt"
+      "id": "g2pca6f8l7p1xced"
     }
   ],
   "transactions": [
@@ -206,13 +212,13 @@
       "created_at": "2022-08-22T07:30:54.248Z"
     },
     {
-      "id": "g2pcaa1kl7bugllx",
+      "id": "g2pca13wl7p28w79",
       "type": "income",
-      "name": "345345",
-      "sum": 3453453,
-      "account_id": "g2pca8c8l7bugftt",
+      "name": "sdfg",
+      "sum": 345345,
+      "account_id": "g2pca6f8l7p1xced",
       "user_id": "g2pca5a0l6xtnmvi",
-      "created_at": "2022-08-27T11:53:33.284Z"
+      "created_at": "2022-09-05T17:52:30.980Z"
     }
   ]
 }

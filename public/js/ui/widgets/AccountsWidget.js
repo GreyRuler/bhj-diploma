@@ -32,6 +32,12 @@ class AccountsWidget {
     buttonCreateAccount.addEventListener('click', () => {
       modalCreateAccount.open()
     })
+    const allAccount = document.querySelectorAll('.account')
+    allAccount.forEach(account => {
+      account.addEventListener('click', () => {
+        this.onSelectAccount(account)
+      })
+    })
   }
 
   /**
@@ -51,12 +57,7 @@ class AccountsWidget {
         data.forEach(element => {
           this.renderItem(element)
         })
-        const allAccount = document.querySelectorAll('.account')
-        allAccount.forEach(account => {
-          account.addEventListener('click', () => {
-            this.onSelectAccount(account)
-          })
-        })
+        this.registerEvents()
       })
     }
   }

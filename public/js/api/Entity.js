@@ -10,13 +10,16 @@ class Entity {
    * (в зависимости от того, что наследуется от Entity)
    * */
   static list(data, callback) {
-    console.log(data)
     createRequest({
       url: this.URL,
       method: 'GET',
       responseType: 'json',
       data,
       callback: (response) => {
+        if (response.error) {
+          console.log(response.error)
+          return
+        }
         if (response && response.success) {
           callback(response.data);
         }
@@ -36,6 +39,10 @@ class Entity {
       responseType: 'json',
       data,
       callback: (response) => {
+        if (response.error) {
+          console.log(response.error)
+          return
+        }
         if (response && response.success) {
           callback();
         }
@@ -54,6 +61,10 @@ class Entity {
       responseType: 'json',
       data,
       callback: (response) => {
+        if (response.error) {
+          console.log(response.error)
+          return
+        }
         if (response && response.success) {
           callback(response);
         }
